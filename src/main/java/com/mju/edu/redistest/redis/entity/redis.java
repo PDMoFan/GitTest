@@ -11,6 +11,6 @@ public class redis {
     private String name;
     private Integer age;
     private String sex;
-
+//dsfsdfds
 
 }
