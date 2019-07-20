@@ -8,7 +8,7 @@ public interface redisDao {
 
     int insert(@Param("pojo") redis pojo);
 
-    int insertList(@Param("pojos") List< redis> pojo);
+    int insertList(@Param("pojo") List< redis> pojo);
 
     List<redis> select(@Param("pojo") redis pojo);
 
