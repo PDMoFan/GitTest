@@ -3,13 +3,7 @@ package com.mju.edu.redistest.redis.entity;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-/**
- *功能描述
- * @author Mr.Lin
- * @date 2019/7/20
- * @param
- * @return
- */
+
 public interface redisDao {
     /**
      *功能描述 dsfdf
