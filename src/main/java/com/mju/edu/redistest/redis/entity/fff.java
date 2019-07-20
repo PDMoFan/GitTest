@@ -7,4 +7,5 @@ package com.mju.edu.redistest.redis.entity;
  * @create: 2019-07-20 17:49
  **/
 public class fff {
+    //修改
 }
