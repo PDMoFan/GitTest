@@ -1,17 +1,32 @@
 package com.mju.edu.redistest.redis.entity;
+import java.util.List;
+import com.mju.edu.redistest.redis.entity.Redis;
 
-/**
- * @program: RedisTest
- * @description: 测试生成文件
- * @author: Mr.Lin
- * @create: 2019-07-20 16:22
- **/
-public class redis {
+import java.io.Serializable;
+
+public class Redis implements Serializable {
+    /**
+     * id
+     */
     private String id;
+
+    /**
+     * name
+     */
     private String name;
+
+    /**
+     * age
+     */
     private Integer age;
+
+    /**
+     * sex
+     */
     private String sex;
-//dsfsdfds
+
+    private static final long serialVersionUID = 1L;
+
 
     public String getId() {
         return id;
@@ -43,5 +58,15 @@ public class redis {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    @Override
+    public String toString() {
+        return "Redis{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", sex='" + sex + '\'' +
+                '}';
     }
 }
